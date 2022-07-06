@@ -11,6 +11,7 @@ h1 {
 .top-banner {
     background-image: url(images/donation6.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     display: block;
     height: 50vh;
@@ -70,6 +71,13 @@ h1 {
     border-radius: 5px;
 }
 
+.other {
+    border: none;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    text-align: center;
+}
+
 .text {
     color: red;
 }
@@ -78,15 +86,15 @@ input {
     text-decoration: none;
 }
 
-.experience-area {
+.donation-area {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
 
 }
 
-.experience-item {
-    width: 30%;
+.donation-item {
+    width: 40%;
     padding-top: 10px;
     padding-left: 40px;
     padding-right: 60px;
@@ -106,9 +114,15 @@ input {
     background-color: rgb(248, 234, 228);
 }
 
+.dp {
+    /* background-color: rgb(235, 84, 14); */
+    background-image: linear-gradient(tomato, orange);
+}
+
 .gap {
     margin-left: 30px;
 }
+
 
 footer {
     background-color: black;
